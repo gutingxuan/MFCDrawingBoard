@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Draw2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\GUTING~1\AppData\Local\Temp\RSPFD94.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "Inc\GDIPLUS" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Draw2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\gutingxuan\Desktop\»æÍ¼°å\Draw(09016401)\Draw2View.cpp"
+]
+Creating command line "cl.exe @C:\Users\GUTING~1\AppData\Local\Temp\RSPFD94.tmp" 
+Creating temporary file "C:\Users\GUTING~1\AppData\Local\Temp\RSPFD95.tmp" with contents
+[
+gdiplus.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Draw2.pdb" /debug /machine:I386 /out:"Debug/Draw2.exe" /pdbtype:sept /libpath:"Lib\GDIPLUS" 
+".\Debug\dibapi.obj"
+".\Debug\Draw2.obj"
+".\Debug\Draw2Doc.obj"
+".\Debug\Draw2View.obj"
+".\Debug\HColorBar.obj"
+".\Debug\MainFrm.obj"
+".\Debug\NewPaperDlg.obj"
+".\Debug\SettingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Draw2.res"
+]
+Creating command line "link.exe @C:\Users\GUTING~1\AppData\Local\Temp\RSPFD95.tmp"
+<h3>Output Window</h3>
+Compiling...
+Draw2View.cpp
+C:\Users\gutingxuan\Desktop\»æÍ¼°å\Draw(09016401)\Draw2View.cpp(320) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\gutingxuan\Desktop\»æÍ¼°å\Draw(09016401)\Draw2View.cpp(871) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Draw2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
